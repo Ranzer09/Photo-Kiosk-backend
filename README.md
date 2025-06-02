@@ -91,22 +91,22 @@ Access at `http://localhost:8000`.
 - **Create User**:
 POST
 Url: "http://localhost:8000/users" 
-- Body:
-{
-  "username":"test",
-  "password":"1234",
-  "role":"Photographer"
-}
+   - Body:
+   {
+     "username":"test",
+     "password":"1234",
+     "role":"Photographer"
+   }
 
 
 - **Login**:
 POST 
 Url: "http://localhost:8000/users" 
-- Body:
-{
-  "username":"test",
-  "password":"1234",
-}
+   - Body:
+   {
+     "username":"test",
+     "password":"1234",
+   }
 
 
 
