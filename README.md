@@ -91,7 +91,7 @@ Access at `http://localhost:8000`.
 - **Create User**:
 POST
 Url: "http://localhost:8000/users" 
--Body:
+- Body:
 {
   "username":"test",
   "password":"1234",
@@ -102,7 +102,7 @@ Url: "http://localhost:8000/users"
 - **Login**:
 POST 
 Url: "http://localhost:8000/users" 
--Body:
+- Body:
 {
   "username":"test",
   "password":"1234",
