@@ -105,7 +105,7 @@ Url: "http://localhost:8000/users"
    - Body:
    {
      "username":"test",
-     "password":"1234",
+     "password":"1234"
    }
 
 
